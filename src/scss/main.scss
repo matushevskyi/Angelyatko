@@ -1,0 +1,172 @@
+html{
+  background-color: #f5f5f5;
+
+}
+
+body{
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #e9e9e9;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main {
+  transition: margin-left 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+hr{
+  margin: 0 0 0 0;
+}
+
+.tag-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+  padding-top: 60px;
+}
+
+header{
+  width: 100%;
+  height: 240px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  background-color: #fff;
+}
+
+.logo{
+  position: relative;
+  vertical-align: middle;
+  margin: auto;
+}
+
+nav{
+
+  margin-bottom: 30px;
+}
+
+#carousel-example-generic{
+  width: 100%;
+  height: 480px;
+  margin-bottom: 30px;
+}
+
+main{
+
+}
+
+.school-header{
+  background-color: #f4ae44;
+  width: 100%;
+  height: 30px;
+  padding: 6px 15px 6px 15px;
+
+  margin-bottom: 30px;
+
+
+}
+
+.school-header span{
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: text-top;
+}
+
+.school-article{
+  margin-bottom: 60px;
+
+}
+
+.tag{
+  position: absolute;
+  background-color: rgba(255, 167, 38, 0.8);
+  border-radius: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.module {
+  overflow: hidden;
+}
+
+.article-h1{
+ font-size: 2rem;
+  font-weight: 600;
+}
+
+.article-p{
+  font-size: 0.875rem;
+  margin-bottom: 30px;
+
+}
+
+.company{
+  display: table;
+  margin-bottom: 6px;
+  font-weight: 300;
+}
+
+.date{
+  display: table;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.icon{
+  width: 18px;
+  height: 18px;
+  display: table-cell;
+  margin-right: 12px;
+  opacity: 0.4;
+}
+
+.company-link{
+  vertical-align: middle;
+  display: table-cell;
+  color: black;
+
+}
+
+#publication-date{
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.article-hr{
+
+}
+
+.banner-sm{
+  display: block;
+
+  width: 100%;
+  height: 300px;
+  background-color: #8c8c8c;
+  margin-bottom: 30px;
+
+}
+
+footer{
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #7d7d7d;
+
+}
